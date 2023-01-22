@@ -2,8 +2,9 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
 import 'package:fl_chart/fl_chart.dart';
+import 'package:flutter/services.dart'; // 두 번째 화면 세로로 고정하기 위해
 
-void main() {
+void main()  {
   runApp(MyApp());
 }
 
@@ -26,7 +27,6 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -93,6 +93,7 @@ class SecondPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    SystemChrome.setPreferredOrientations([DeviceOrientation.landscapeLeft]);
     return Scaffold(
       appBar: AppBar(
         title: Text('Multi-Line Chart With Curved Lines'),
