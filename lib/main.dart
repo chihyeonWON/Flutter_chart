@@ -64,7 +64,7 @@ class MyHomePage extends StatelessWidget {
             onPressed: () async {
               await Navigator.pushNamed(context,'/second');
             },
-            child:Text('Multi-Line Chart With Curved Liens')
+            child:Text('Multi-Line Chart With Curved Lines')
           ),
         ],
       ),
