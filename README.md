@@ -24,3 +24,11 @@ FlSpot(x, y)의 형태로 spots 프로퍼티로 직접 지정해 줄 수 있습�
 화면을 routes 기능을 사용해서 버튼을 누르면 두 번째 화면으로 넘어가도록 버튼을 추가했습니다.
 ```
 ![image](https://user-images.githubusercontent.com/58906858/213901698-7e96a203-a3ab-48d8-aca1-d8040813c764.png)
+
+## 두 번째 화면에 3개의 곡선 그래프 추가
+```
+List.generate로 8개의 랜덤한 y좌표를 가지는 좌표 생성하고 곡선 그래프마다 각각 다른 색상과
+좌표값을 가지도록 하였습니다.
+LineChartBarData 프로퍼티의 값으로 spots(좌표), color(색상), isCurved(곡,직선 판단) 등을 할 수 있습니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/213902034-c2075138-6f97-4166-9885-adbc9f6510fb.png)
