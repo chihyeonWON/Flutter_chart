@@ -1,16 +1,9 @@
-# chart
+# fl_chart
 
-A new Flutter project.
+```
+다양한 통계 데이터를 시각적인 형태로 바꾸는 것을 데이터 시각화라고 한다.
+그 중에 선 그래프, 막대 그래프, 파이형 그래프 등을 지원하는 라이브러리인
+fl_chart를 사용해 보았다.
+```
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
