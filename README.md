@@ -17,3 +17,10 @@ FlSpot(x, y)의 형태로 spots 프로퍼티로 직접 지정해 줄 수 있습�
 기본 선 그래프 차트를 구현하였습니다.
 ```
 ![image](https://user-images.githubusercontent.com/58906858/213900879-11983cc1-cd19-4832-b295-f6ef3ca0152a.png)
+
+## 두 번째 화면으로 화면 전환하는 버튼 추가
+```
+두 번째 화면에는 여러 개의 곡선 그래프를 보여주는 화면을 추가합니다.
+화면을 routes 기능을 사용해서 버튼을 누르면 두 번째 화면으로 넘어가도록 버튼을 추가했습니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/213901698-7e96a203-a3ab-48d8-aca1-d8040813c764.png)
