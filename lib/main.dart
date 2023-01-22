@@ -15,7 +15,11 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.indigo,
         ),
-        home: MyHomePage()
+        home: MyHomePage(),
+      routes:{
+          '/first':(context)=>MyHomePage(),
+          '/second':(context)=>SecondPage(),
+      },
     );
   }
 }
@@ -57,12 +61,24 @@ class MyHomePage extends StatelessWidget {
             ),
           ),
           ElevatedButton(
-            onPressed: () {
-
+            onPressed: () async {
+              await Navigator.pushNamed(context,'/second');
             },
             child:Text('Multi-Line Chart With Curved Liens')
           ),
         ],
+      ),
+    );
+  }
+}
+
+class SecondPage extends StatelessWidget {
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar:AppBar(
+        title:Text('Multi-Line Chart With Curved Lines'),
       ),
     );
   }
